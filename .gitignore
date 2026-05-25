@@ -4,6 +4,8 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .DS_Store
+target/
+rust_reference/**/target/
 
 # Keep the presentation-ready stress artifacts in git; ignore older smoke outputs.
 results/local_mock/

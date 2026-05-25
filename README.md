@@ -27,6 +27,16 @@ production events
 
 The attacking case does **not** implement a RAG system. It only borrows the PoisonedRAG attacker assumption: an attacker can inject a few malicious texts into an external knowledge store so a target question retrieves attacker-chosen content. In this demo, the external store is long-term agent memory.
 
+## Code Layout
+
+- `safe_agent_memory/`: Python prototype used for the benchmark and demo page.
+- `tests/`: Python tests for belief projection and ingestion behavior.
+- `results/stress_mock/`: generated stress benchmark artifacts and plots.
+- `presentation/10min_story.md`: current 10-minute presentation story.
+- `rust_reference/agentdb-re/`: source-level Rust AgentDB reference snapshot from
+  the earlier prototype, included to show the original persist/bind/projection
+  kernel that inspired the Python course demo.
+
 ## Local Quick Start
 
 ```bash
@@ -40,6 +50,14 @@ Outputs:
 - `results/summary.csv`
 - `results/raw_outputs.jsonl`
 - `results/demo_trace.md`
+
+Rust reference check:
+
+```bash
+cd rust_reference/agentdb-re
+cargo test
+cargo run --example step4_projection
+```
 
 ## Showcase Benchmark and Demo Page
 
