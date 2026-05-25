@@ -1,0 +1,11 @@
+case_family,method,num_cases,unsafe_memory_exposure_rate,safe_memory_exposure_rate,unsafe_answer_rate,safe_answer_rate,avg_context_memories,avg_suppressed,avg_conflict_relations,avg_supersedes_relations,avg_resolution_records,avg_strong_resolutions,avg_user_review_requests,avg_production_events,avg_prepare_traces,avg_ingest_conflict_steps,avg_prompt_chars
+attacker,append_all,120,1.0,1.0,0.75,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1752.75
+attacker,belief_projection,120,0.0,1.0,0.0,1.0,6.5,2.5,2.5,0.0,2.5,0.0,0.0,9.0,9.0,2.5,1297.0
+attacker,drop_known_attacks,120,0.0,1.0,0.0,1.0,6.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1298.0
+attacker,keyword_topk,120,0.8333,0.8333,0.75,0.1667,3.8333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1070.7167
+attacker,latest_only,120,1.0,0.0,0.75,0.0,5.1667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1282.4833
+conflict,append_all,240,1.0,1.0,0.0,1.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1865.75
+conflict,belief_projection,240,0.0,1.0,0.0,1.0,7.5,4.5,2.5,3.5,6.0,2.5,0.0,12.0,12.0,2.5,1370.5
+conflict,drop_known_attacks,240,1.0,1.0,0.0,1.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1873.75
+conflict,keyword_topk,240,1.0,1.0,0.125,0.875,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,951.25
+conflict,latest_only,240,0.875,1.0,0.5,0.5,6.8333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1273.4583

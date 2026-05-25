@@ -1,0 +1,6 @@
+method,num_cases,unsafe_memory_exposure_rate,safe_memory_exposure_rate,unsafe_answer_rate,safe_answer_rate,avg_context_memories,avg_suppressed,avg_conflict_relations,avg_supersedes_relations,avg_resolution_records,avg_strong_resolutions,avg_user_review_requests,avg_production_events,avg_prepare_traces,avg_ingest_conflict_steps,avg_prompt_chars
+append_all,360,1.0,1.0,0.25,0.6667,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1828.0833
+belief_projection,360,0.0,1.0,0.0,1.0,7.1667,3.8333,2.5,2.3333,4.8333,1.6667,0.0,11.0,11.0,2.5,1346.0
+drop_known_attacks,360,0.6667,1.0,0.0,1.0,10.1667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1681.8333
+keyword_topk,360,0.9444,0.9444,0.3333,0.6389,3.9444,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,991.0722
+latest_only,360,0.9167,0.6667,0.5833,0.3333,6.2778,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1276.4667

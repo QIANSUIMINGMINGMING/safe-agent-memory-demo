@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Keep the presentation-ready stress artifacts in git; ignore older smoke outputs.
+results/local_mock/
+results/synthetic_mock/
+results/synthetic_100_mock/

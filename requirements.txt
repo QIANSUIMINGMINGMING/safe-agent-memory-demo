@@ -1,0 +1,8 @@
+accelerate
+matplotlib
+pandas
+pytest
+safetensors
+scikit-learn
+torch
+transformers
